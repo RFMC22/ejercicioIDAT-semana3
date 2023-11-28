@@ -6,15 +6,72 @@
   <title>Contacto</title>
 </head>
 <body>
-  <h1>Este es el Contacto</h1>
+  <header>
+    <h1>Compra ahora un IPhone 14! al <span>50% dscto.</span> </h1>
+    <p>Solo debes llenar el formulario</p>
   <nav>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
+      <li><a href="/">Inicio</a></li>
       <li><a href="nosotros.html">Nosotros</a></li>
       <li><a href="portafolio.html">Portafolio</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="contacto.html">Contacto</a></li>
     </ul>
   </nav>
+  </header>
+  <section>
+    <form action="/">
+      <h2>Informaci&oacute;n del Cliente</h2>
+      <label for="nombres">Nombre</label>
+      <input id="nombres" name="nombres" type="text" placeholder="Ingresa tus nombres"/>
+      <br>
+      <label for="apellidos">Apellidos</label>
+      <input id="apellidos" name="apellidos" type="text" placeholder="Ingresa tus apellidos"/>
+      <br>
+      <label for="correo">Correo:</label>
+      <input id="correo" name="correo" type="email" placeholder="Ingresa tu correo"/>
+      <br>
+      <label for="celular">Celular:</label>
+      <input id="celular" name="celular" type="number"/>
+      <br>
+      <label for="direccion">Direccion:</label>
+      <input id="direccion" name="direccion" type="text" placeholder="Ingresa tu direcci&oacute;n"/>
+      <br>
+      <hr>
+      <h2>Informaci&oacute;n del producto</h2>
+      <label for="">Elige un color</label>
+      <br>
+      <label for="rojo">Rojo</label>
+      <input type="radio" name="color" id="rojo">
+      <label for="gris">Gris</label>
+      <input type="radio" name="color" id="gris">
+      <label for="negro">Negro</label>
+      <input type="radio" name="color" id="negro" checked>
+      <br>
+      <label for="tamanio">Tama&ntilde;o</label>
+      <select name="tamanio" id="tamanio">
+        <option value="s">Peque&ntilde;o</option>
+        <option value="m">Mediano</option>
+        <option value="l">Grande</option>
+      </select>
+      <br>
+      <label for="indicacion">Indicaciones adicionales</label>
+      <textarea name="indicacion" id="indicacion" cols="30" rows="10"></textarea>
+      <br>
+      <label for="politicas">Acepta los terminos y politicas de seguridad</label>
+      <input type="checkbox" name="politicas" id="politicas">
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="/">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="portafolio.html">Portafolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
